@@ -1,0 +1,267 @@
+body {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/hd/a781ce32751817.56929eefe4f71.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+h2{
+    margin-top :auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.des{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding-top: 0px;
+}
+.des a
+{
+
+    text-decoration: none;
+    color:black;
+    
+}
+.stu
+{
+    background-color: rgb(255, 231, 179);
+    margin-top:  100px;;
+    margin-left: 55px;
+    border-radius: 20px;
+    width:90%;
+    height:450px auto;
+
+}
+#hhh
+{
+      padding-top:40px;
+      padding-left:15px ;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#har
+{
+    font-style: italic;
+    color:brown;
+    padding-left: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-content {
+    width: 60%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    outline: 4px solid orange;
+    outline-offset: 15px;
+
+
+}
+.order-btn{
+    background-color: #8B4513;
+    color:white;
+    border-radius: 15px;
+    padding-left: 20px;
+      cursor:pointer;
+      font-size: 16px;
+      margin-left: 20px;
+    margin-top: 10px;
+    width:25%;
+    height:50px;
+
+}
+.order-btn:hover
+{
+     background-color: orange;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    padding: 15px;
+}
+
+footer a {
+    color: brown;
+    text-decoration: none;
+}
+
+footer span {
+    color: orange;
+    font-size: 25px;
+}
+
+
+.menu {
+    text-align: center;
+    padding: 30px;
+}
+
+.menu h2 {
+    color: brown;
+    font-size: 28px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    /* margin-top: 25px; */
+}
+
+.food-card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.food-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-card h3 {
+    color: brown;
+}
+
+.food-card p {
+    color: gray;
+}
+
+.food-card h4 {
+    color: orange;
+    font-size: 20px;
+}
+
+
+
+.about {
+    background-color: #fff5e6;
+    margin: 30px;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: brown;
+    font-size: 28px;
+}
+
+.about p {
+    color: #654321;
+    font-size: 17px;
+    line-height: 1.8;
+}
+.reviews
+{
+    text-align: center;
+    /* padding:20px; */
+}
+.reviews h2{
+    color:#8B4513;
+}
+
+.review-cont
+{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    /* margin-top: 25px; */
+
+}
+.review-card {
+    background-color: #fff5e6;
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.review-card h3{
+    color:#8B4513;
+}
+.review-card p{
+    color:#654321
+}
+.star
+{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+
+}
+
+
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    .stu {
+        width: 95%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .des {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    .hero img {
+        width: 220px;
+        height: 220px;
+        margin: 20px auto;
+    }
+
+    .order-btn {
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .menu-container,
+    .review-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-card,
+    .review-card {
+        width: 80%;
+    }
+
+    .about {
+        margin: 15px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+
