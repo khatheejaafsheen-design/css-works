@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="afsheen">
+
+    <title>Themable Webpage</title>
+
+    <style>
+
+        /* Default Theme */
+        :root {
+            --bg-color: white;
+            --text-color: black;
+            --primary-color: purple;
+            --card-color: lavender;
+        }
+
+        /* Dark Theme */
+        [data-theme="dark"] {
+            --bg-color: #222222;
+            --text-color: white;
+            --primary-color: violet;
+            --card-color: #444444;
+        }
+
+        /* Beige Theme */
+        [data-theme="beige"] {
+            --bg-color: #f5eadf;
+            --text-color: #49372b;
+            --primary-color: #a47750;
+            --card-color: #fffaf2;
+        }
+
+        /* Body Styling */
+        body {
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: Arial, sans-serif;
+        }
+
+        /* Card Styling */
+        .card {
+            background: var(--card-color);
+            padding: 30px;
+            margin: 30px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+        }
+
+        button {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body data-theme="white">
+
+    <div class="card">
+
+        <h1>Welcome to My Website!</h1>
+
+        <p>Learning CSS Theming.</p>
+
+        <button>Explore More</button>
+
+    </div>
+
+    <img src="DIRECT_IMAGE_URL" alt="Image of headphones">
+
+</body>
+</html>

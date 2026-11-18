@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="afsheen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AFSHEEN - Music Portfolio</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 5px 5px 15px rgb(146, 100, 146);
+            font-weight: bolder;
+            font-size: 60px;
+            margin-top: 8%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #d8a7ff;
+            letter-spacing: 8px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hhh {
+            width: 60%;
+            display: block;
+            margin: auto;
+            border-radius: 5%;
+            border: 2px solid #d8a7ff;
+        }
+
+        .text {
+            font-size: large;
+            font-style: italic;
+            color: white;
+            padding-left: 50px;
+        }
+
+        #nn {
+            width: 40%;
+            height: auto;
+            float: right;
+            border-radius: 5%;
+            border: 2px solid #d8a7ff;
+        }
+
+        .music-btn {
+            display: inline-block;
+            width: auto;
+            background-color: #5f478eeb;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            font-style: oblique;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .music-btn:hover {
+            background-color: #8955f5;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #d8a7ff;
+            width: 70%;
+            margin: 20px auto;
+        }
+
+        #albums {
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        #albums h2 {
+            color: #d8a7ff;
+            font-size: 35px;
+        }
+
+        .album-card {
+            color: white;
+            border: 2px solid #d8a7ff;
+            background-color: #17121f;
+            padding: 20px;
+            margin: 20px auto;
+            width: 250px;
+            border-radius: 12px;
+        }
+
+        .intro-section {
+            overflow: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>AFSHEEN</h1>
+
+    <hr>
+
+    <br>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#albums">Albums</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Film & TV</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800"
+         alt="Singer"
+         class="hhh">
+
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    <section class="intro-section">
+
+        <br>
+        <br>
+
+        <h2 class="text">
+            HELLO, MUSIC LOVERS!
+        </h2>
+
+        <img src="https://static.wixstatic.com/media/8b6a24_99c78fe6172b468ea34fc9cc76cd4320~mv2_d_1980_1320_s_2.jpg/v1/crop/x_500%2Cy_0%2Cw_980%2Ch_614%2Cq_85%2Cenc_avif%2Cquality_auto/8b6a24_99c78fe6172b468ea34fc9cc76cd4320~mv2_d_1980_1320_s_2.jpg"
+             alt="Singer portrait"
+             id="nn">
+
+        <div class="text">
+
+            <h2 style="color:#d8a7ff">
+                I'm AFSHEEN......
+            </h2>
+
+            <p>Music is my passion.</p>
+
+            <p>I love expressing emotions through melodies.</p>
+
+        </div>
+
+        <br>
+        <br>
+
+        <a href="#albums" class="music-btn">
+            Explore My Music
+        </a>
+
+    </section>
+
+    <!-- Horizontal line after introduction and second image -->
+    <hr>
+
+    <section id="albums">
+
+        <h2>MY ALBUMS</h2>
+
+        <div class="album-card">
+            <h3>Album 1</h3>
+            <p>My first music collection</p>
+        </div>
+
+    </section>
+
+</body>
+</html>
